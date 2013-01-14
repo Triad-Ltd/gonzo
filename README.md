@@ -13,8 +13,11 @@ Ask a bristolian.
 Requirements:
 
 linux (i cant see this working on windows).
+
 pdftotext 
+
 antiword
+
 shell_exec() on php.
 
 ----------------------------
