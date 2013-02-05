@@ -50,9 +50,6 @@ class Gonzo_ext {
 	function parse_gonzo_fields($entry_id,$meta,$data) {
 		$this->EE =& get_instance();
 
-		// echo $entry_id;
-		// print_r($data);
-
 		$this->EE->db->where('channel_id',$meta['channel_id']);
 		$res = $this->EE->db->get('channels');
 		$row = $res->result_array();
